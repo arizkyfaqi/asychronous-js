@@ -1,0 +1,27 @@
+{
+  "name": "asychronous",
+  "version": "1.0.0",
+  "description": "javascript asychronous",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arizkyfaqi/asychronous-js.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "javascript"
+  ],
+  "author": "rizky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arizkyfaqi/asychronous-js/issues"
+  },
+  "homepage": "https://github.com/arizkyfaqi/asychronous-js#readme",
+  "dependencies": {
+    "superagent": "^5.2.1"
+  }
+}
