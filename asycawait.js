@@ -20,7 +20,7 @@ const writeFilePro = (file, data) => {
   });
 };
 
-//AsycAwait
+//AsyncAwait
 const getDogPic = async () => {
   const data = await readFilePro(`${__dirname}/dog.txt`);
   console.log(`Breed: ${data}`);
@@ -32,8 +32,14 @@ const getDogPic = async () => {
 
   await writeFilePro("dog-img.txt", res.body.message);
   console.log("Rondom dog image saved to file!");
+
+  return "2: READY!";
 };
-getDogPic();
+console.log("1: Will get dog pics!");
+getDogPic().then(x => {
+  console.log(x);
+  console.log("3: Done getting dog pics!");
+});
 
 /*
 
